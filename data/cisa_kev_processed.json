@@ -1,0 +1,51 @@
+[
+  {
+    "title": "CVE-2026-33017",
+    "source": "Cisa Kev",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-33017",
+    "classification": "Active Exploitation",
+    "abstract": "Langflow contains a code injection vulnerability that could allow building public flows without requiring authentication."
+  },
+  {
+    "title": "CVE-2025-3248",
+    "source": "Cisa Kev",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-3248",
+    "classification": "Active Exploitation",
+    "abstract": "Langflow contains a missing authentication vulnerability in the /api/v1/validate/code endpoint that allows a remote, unauthenticated attacker to execute arbitrary code via crafted HTTP requests."
+  },
+  {
+    "title": "CVE-2026-59822",
+    "source": "Cisa Kev",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-59822",
+    "classification": "Active Exploitation",
+    "abstract": "BerriAI LiteLLM contains an improper authentication vulnerability in the MCP Streamable HTTP endpoint that could allow an unauthenticated attacker to establish an authenticated MCP session using an arbitrary Bearer token."
+  },
+  {
+    "title": "CVE-2026-9198",
+    "source": "Cisa Kev",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-9198",
+    "classification": "Active Exploitation",
+    "abstract": "Langflow contains a code injection vulnerability that allows unauthenticated attackers to achieve full remote code execution on default Langflow deployments."
+  },
+  {
+    "title": "CVE-2026-55255",
+    "source": "Cisa Kev",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-55255",
+    "classification": "Active Exploitation",
+    "abstract": "Langflow contains an authorization bypass through user-controlled key vulnerability which allows an authenticated attacker to execute any flow belonging to another user by specifying the victim's flow ID in the request."
+  },
+  {
+    "title": "CVE-2026-42271",
+    "source": "Cisa Kev",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2026-42271",
+    "classification": "Active Exploitation",
+    "abstract": "BerriAI LiteLLM contains a command injection vulnerability that could allow any authenticated user, including holders of low-privilege internal-user keys, to run arbitrary commands on the host."
+  },
+  {
+    "title": "CVE-2025-34291",
+    "source": "Cisa Kev",
+    "url": "https://www.cve.org/CVERecord?id=CVE-2025-34291",
+    "classification": "Active Exploitation",
+    "abstract": "Langflow contains an origin validation error vulnerability in which an overly permissive CORS configuration combined with a refresh token cookie configured as SameSite=None allows a malicious webpage to perform cross-origin requests that include credentials and successfully call the refresh endpoint. This could allow the attacker to execute arbitrary code and achieve full system compromise via obtained tokens that permit access to authenticated endpoints."
+  }
+]
