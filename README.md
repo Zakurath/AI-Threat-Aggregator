@@ -11,6 +11,8 @@ The system collects threat intelligence from multiple sources, normalizes the in
 
 The goal is to provide security teams with a centralized view of emerging AI-related threats and reduce the amount of irrelevant information analysts need to review.
 
+This is a continuation of the CSUSM AI Cybersecurity Capstone found here: https://github.com/Zakurath/capstone5
+
 ## Features
 
 - **Multi-Source Threat Intelligence** — Aggregates AI-related threat intelligence from CISA KEV, MITRE ATLAS, Semantic Scholar, arXiv, and The Hacker News.
